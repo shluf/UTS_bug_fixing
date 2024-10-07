@@ -12,6 +12,10 @@ import com.example.soal_uts_bug_fixing.databinding.ActivityFormBinding
 class FormActivity : AppCompatActivity() {
     private lateinit var binding: ActivityFormBinding
     companion object{
+        const val EXTRA_NAMA = "extra_name"
+        const val EXTRA_IDENTITAS = "extra_identitas"
+        const val EXTRA_GENDER = "extra_gender"
+        const val EXTRA_KELUHAN = "extra_keluhan"
     }
 
     private lateinit var gendersArray : Array<String>
